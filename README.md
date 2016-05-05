@@ -80,5 +80,3 @@ cornerRadius属性影响layer显示的background颜色和前景框border，对la
 1. 在可以使用混合图层遮挡的场景下，优先使用第四种方法。
 2. 即使是非iOS9以上系统，第一种方法在综合性能上依然强于后两者，iOS9以上由于没有了离屏渲染更是首选。
 3. 方法二和方法三由于使用了贝塞尔曲线，都可以应对复杂的圆角。只不过前者牺牲帧率，后者需要大量计算和增加部分内存，需要实际情况各自取舍。
-
-以上四种方法的[Objective-C实现](https://github.com/tjuzjf/RoundCornerDemo) 

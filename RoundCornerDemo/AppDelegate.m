@@ -2,7 +2,6 @@
 //  AppDelegate.m
 //  RoundCornerDemo
 //
-//
 
 #import "AppDelegate.h"
 
